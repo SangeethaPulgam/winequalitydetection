@@ -1,5 +1,6 @@
 # winequalitydetection
-For this project ,i used kaggle's wine quality dataset to build various classification models to predict whether a particular wine is "good quality "or not. Each wine in this dataset is given a "quality" score between 0 and 10. For the purpose of this project, I coverted the output to a binary output where each wine is either "good quality"(a score of 8 or higher) or not(score below 8). The quality of a wine is determined by 11 input variables:
+For this project ,I used kaggle's wine quality dataset to build various classification models to predict whether a particular wine is "good quality "or not. Each wine in this dataset is given a "quality" score between 0 and 10. For the purpose of this project, I coverted the output to a binary output where each wine is either "good quality"(a score of 8 or higher) or not(score below 8). 
+The quality of a wine is determined by 11 input variables:
 Fixed acidity
 Volatile acidity
 Citric acid
@@ -13,8 +14,9 @@ Sulfates
 Alcohol
 
 Objectives:
-to experiment the good quality wine using different classification methods
-steps involved in this project:
+to experiment the good quality wine using different classification methods.
+
+
 
 steps included in this project:
  1.Taking the data and Creating the dataframe
