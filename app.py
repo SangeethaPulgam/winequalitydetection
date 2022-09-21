@@ -1,6 +1,6 @@
 import streamlit as st
 import joblib
-model_nb=joblib.load('vect')
+model_nb=joblib.load('SVC')
 st.title('WINE QUALITY DETECTION')
 ip=st.text_input("enter the type:")
 op=model_nb.predict([ip])
