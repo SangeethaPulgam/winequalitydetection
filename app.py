@@ -1,9 +1,10 @@
 import streamlit as st
 import joblib
-model=joblib.load('wine-quality')
+model_nb=joblib.load('wine-quality')
+
 st.title('WINE QUALITY DETECTION')
-ip=st.text_input('enter the type')
-op=model.predict([ip])
+ip=st.text_input('enter the type :')
+op=model_nb.predict([ip])
 if st.button('predict'):
      st.title(op[0])
 
